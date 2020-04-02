@@ -1,0 +1,266 @@
+<annotation>
+	<folder>New folder</folder>
+	<filename>T1512678-0001-0000-1.jpg</filename>
+	<path>D:\Work\Autolabel\OneDrive_2020-04-01\New folder\T1512678-0001-0000-1.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>4961</width>
+		<height>3508</height>
+		<depth>1</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Inline Instrument</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>951</xmin>
+			<ymin>203</ymin>
+			<xmax>1040</xmax>
+			<ymax>289</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Inline Instrument</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1538</xmin>
+			<ymin>270</ymin>
+			<xmax>1627</xmax>
+			<ymax>356</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Inline Instrument</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>776</xmin>
+			<ymin>1509</ymin>
+			<xmax>865</xmax>
+			<ymax>1595</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Inline Instrument</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1542</xmin>
+			<ymin>1250</ymin>
+			<xmax>1631</xmax>
+			<ymax>1336</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Inline Instrument</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>830</xmin>
+			<ymin>2190</ymin>
+			<xmax>919</xmax>
+			<ymax>2276</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Inline Instrument</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>781</xmin>
+			<ymin>2094</ymin>
+			<xmax>870</xmax>
+			<ymax>2180</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Inline Instrument</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>895</xmin>
+			<ymin>2554</ymin>
+			<xmax>984</xmax>
+			<ymax>2640</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Inline Instrument</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>2191</xmin>
+			<ymin>2550</ymin>
+			<xmax>2280</xmax>
+			<ymax>2636</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Inline Instrument</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>2299</xmin>
+			<ymin>2093</ymin>
+			<xmax>2388</xmax>
+			<ymax>2179</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Inline Instrument</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>2251</xmin>
+			<ymin>2189</ymin>
+			<xmax>2340</xmax>
+			<ymax>2275</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Inline Instrument</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1609</xmin>
+			<ymin>2274</ymin>
+			<xmax>1698</xmax>
+			<ymax>2360</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Inline Instrument</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>2298</xmin>
+			<ymin>1510</ymin>
+			<xmax>2387</xmax>
+			<ymax>1596</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Inline Instrument</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>3545</xmin>
+			<ymin>979</ymin>
+			<xmax>3634</xmax>
+			<ymax>1065</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Inline Instrument</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>3707</xmin>
+			<ymin>1064</ymin>
+			<xmax>3796</xmax>
+			<ymax>1150</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Inline Instrument</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>3365</xmin>
+			<ymin>979</ymin>
+			<xmax>3454</xmax>
+			<ymax>1065</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Inline Instrument</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>3702</xmin>
+			<ymin>1637</ymin>
+			<xmax>3791</xmax>
+			<ymax>1723</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Inline Instrument</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>3295</xmin>
+			<ymin>1432</ymin>
+			<xmax>3384</xmax>
+			<ymax>1518</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Inline Instrument</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>4144</xmin>
+			<ymin>1440</ymin>
+			<xmax>4233</xmax>
+			<ymax>1526</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Inline Instrument</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>3606</xmin>
+			<ymin>2237</ymin>
+			<xmax>3695</xmax>
+			<ymax>2323</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Inline Instrument</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>3606</xmin>
+			<ymin>2154</ymin>
+			<xmax>3695</xmax>
+			<ymax>2240</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Inline Instrument</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>3839</xmin>
+			<ymin>2014</ymin>
+			<xmax>3928</xmax>
+			<ymax>2100</ymax>
+		</bndbox>
+	</object>
+</annotation>
