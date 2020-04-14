@@ -50,8 +50,8 @@ if __name__ == "__main__":
 
     detection_graph = tf.Graph()
     with detection_graph.as_default():
-        od_graph_def = tf.GraphDef()
-        with tf.gfile.GFile(PATH_TO_CKPT, "rb") as fid:
+        od_graph_def = tf.compat.v1.GraphDef()
+        with tf.io.gfile.GFile(PATH_TO_CKPT, "rb") as fid:
             serialized_graph = fid.read()
             od_graph_def.ParseFromString(serialized_graph)
             tf.import_graph_def(od_graph_def, name="")
@@ -79,12 +79,12 @@ if __name__ == "__main__":
 
         with graph.as_default():
             if gpu:
-                config = tf.ConfigProto()
+                config = tf.compat.v1.ConfigProto()
             else:
-                config = tf.ConfigProto(device_count={"GPU": 0})
-            with tf.Session(config=config) as sess:
+                config = tf.compat.v1.ConfigProto(device_count={"GPU": 0})
+            with tf.compat.v1.Session(config=config) as sess:
                 # Get handles to input and output tensors
-                ops = tf.get_default_graph().get_operations()
+                ops = tf.compat.v1.get_default_graph().get_operations()
                 all_tensor_names = {output.name for op in ops for output in op.outputs}
                 tensor_dict = {}
                 for key in [
@@ -96,7 +96,7 @@ if __name__ == "__main__":
                 ]:
                     tensor_name = key + ":0"
                     if tensor_name in all_tensor_names:
-                        tensor_dict[key] = tf.get_default_graph().get_tensor_by_name(
+                        tensor_dict[key] = tf.compat.v1.get_default_graph().get_tensor_by_name(
                             tensor_name
                         )
                 if "detection_masks" in tensor_dict:
@@ -123,7 +123,7 @@ if __name__ == "__main__":
                     tensor_dict["detection_masks"] = tf.expand_dims(
                         detection_masks_reframed, 0
                     )
-                image_tensor = tf.get_default_graph().get_tensor_by_name(
+                image_tensor = tf.compat.v1.get_default_graph().get_tensor_by_name(
                     "image_tensor:0"
                 )
 
